@@ -12,8 +12,3 @@ sym: main.v makefile
 run: sym main.vpi
 	vvp -M. -mmain sym
 
-preprocess:
-	clang -E main.c -I $(PATH)
-
-a.out: main.c
-	clang main.c -I $(PATH)
