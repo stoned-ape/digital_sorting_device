@@ -8,5 +8,5 @@ width, not the width of the device.
 A device like this could be added to a cpu as vector instruction.  Such an instruction could speed up a mergesort algorithm.  If a cpu had an 8 int sorting device, an array of 16 ints could be sorted with a recursion depth of 1 instead of 4.  Likewise, an array of 32 ints could be sorted with a recursion depth of 2.
 
 ## Simple Example
-The design in the diagram has the smallest possible width.  It can be cascaded to accomadate longer arrays as seen in the code.  The cascade is purely horizontal, only two array register are ever necessary.
+The design in the diagram has the smallest possible width.  It can be cascaded to accomadate longer arrays as seen in the code.  The cascade is purely horizontal, only two array registers are ever necessary.
 ![img](sort_reg2.png)
